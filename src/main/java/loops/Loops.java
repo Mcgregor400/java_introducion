@@ -13,6 +13,7 @@ public class Loops {
         System.out.println("Suma liczb od 0 do 20 to " + sum);
 
         i = 1;
+
         do {
             if (i % 2 == 0 && i % 3 == 0) {
                 System.out.println(i + " to liczba podzielna przez 2 i 3");
