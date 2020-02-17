@@ -3,6 +3,7 @@ package datetime;
 import java.time.LocalDate;
 
 import java.time.Period;
+import java.time.ZoneId;
 import java.time.format.DateTimeFormatter;
 
 public class DateAndTime {
@@ -19,10 +20,10 @@ public class DateAndTime {
         System.out.println("jakaś data to " +someDateParsed);
         System.out.println("Jakaś data to: " + someDateParsed);
         System.out.println("czy teraz jest przed jakąć  2020/03/23" + currenttime.isBefore(someDateParsed));
-
        Period period = Period.between( someDateParsed, currenttime);
        int yearsBetweenTwoDates = period.getYears();
         System.out.println("Twój wiek: " + yearsBetweenTwoDates);
+
 
 
     }

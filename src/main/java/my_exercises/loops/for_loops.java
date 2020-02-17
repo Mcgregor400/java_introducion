@@ -180,28 +180,82 @@ public class for_loops {
 
         System.out.println("**********************************suma liczb z przedziału liczby a i b (pętla while) *************************");
 
+//
+//
+//                Scanner on = new Scanner(System.in);
+//                System.out.println("Podaj liczbe");
+//                int  t = on.nextInt();
+//                int max = t;
+//                int min = t;
+//                int suma;
+//
+//                while(t!=0){
+//                    if(t<min)
+//                        t = min;
+//                    if(t>max)
+//                        t = max;
+//                    t = on.nextInt();
+//                    System.out.println(t);
+//
+//                }
+//
+//                suma = min+max;
+//                System.out.println(suma);
+        System.out.println("******************************szachownica z polami 2*2");
+//        String jasne = "**##";
+//        String ciemne = "##**";
+//        for (int szach = 0; szach < 2; szach++) {
+//
+//            for (int i = 0; i < 2; i++) {
+//                System.out.println(jasne + jasne);
+//            }
+//            for (int j = 0; j < 2; j++) {
+//                System.out.println(ciemne + ciemne);
+//            }
+//
+//        }
+////        int i;
+////        int j;
+////        int wynik = i*j;
+//        for (int i = 1; i <= 10; i++) {
+//            for (int j = 1; j <= 10; j++) {
+//
+//                System.out.print("  "+i * j +"  ");
+//            }
+//            System.out.println("  ");
+//        }
+//
+//        for (int i=1; i<=20; i++) {
+//            if (i==13) {
+//                continue;
+//            }
+//             System.out.print(i + " ");
+//        }
+        System.out.println("***************************pętla for rozszerzona inaczej zwana for each*******************");
+//        int[] liczby = {1,2,3,4,5,6,7,8,9};
+//        int iloscLiczb=0;
+//        int pazyste=0;
+//        for (int i: liczby){
+//            iloscLiczb++;
+//            System.out.println(iloscLiczb+ " ");
+//            pazyste++;
+//            if (i%2 ==0){
+//                System.out.println("liczba "+pazyste+ " to jest liczba pażysta ");
+//            }
+//        }
+        for (int i=1; i<=5; i++) {
+            for (int j=1; j<=3; j++) {
+                 System.out.print("   "+"*");
+                  }
+             System.out.println("  ");
+
+            }
 
 
-                Scanner on = new Scanner(System.in);
-                System.out.println("Podaj liczbe");
-                int  t = on.nextInt();
-                int max = t;
-                int min = t;
-                int suma;
 
-                while(t!=0){
-                    if(t<min)
-                        t = min;
-                    if(t>max)
-                        t = max;
-                    t = on.nextInt();
-                    System.out.println(t);
 
-                }
-
-                suma = min+max;
-                System.out.println(suma);
 
     }
 }
+
 

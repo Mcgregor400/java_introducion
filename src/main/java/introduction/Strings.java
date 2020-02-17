@@ -18,6 +18,14 @@ public class Strings {
         String resultText = builder.toString();
         System.out.println("Napis utworzony przez buildera: " + resultText);
 
+        StringBuilder mocaz = new StringBuilder();
+        mocaz.append("ala");
+        mocaz.append("ma");
+        mocaz.append("kota");
+        String wynik = mocaz.toString();
+        System.out.println(wynik.charAt(2));
+
+
     }
 
 }

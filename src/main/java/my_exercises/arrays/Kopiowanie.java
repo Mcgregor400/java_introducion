@@ -4,62 +4,32 @@ import java.util.Arrays;
 
 public class Kopiowanie {
     public static void main(String[] args) {
-        int[] array = new int[5];
-        System.out.println(Arrays.toString(array));
-        System.err.println();
 
-    }
-    public class ArrayAddElementTest {
-        /**
-         * Creates a new array containing all {@code source} elements
-         * followed by {@code newElements}.
-         *
-         * @param source      a source array
-         * @param newElements any number of new elements to "add" to the
-         *                    {@code source} array
-         * @return the new array containing all {@code source} elements
-         * followed by {@code newElements}
-         */
-//        private static String[] addElements(String[] source, String...
-//                newElements) {
-//            int newArrayLength = source.length + newElements.length;
-//            String[] newArray = new String[newArrayLength];
-//            int idx = 0;
-//            for (String elem:
-//            source){
-//                newArray[idx] = elem;
-//                idx++;
-//            }
-//            return  newArray;
-//            // TODO: implement this method according to the specification
-//            return null;
+//        int[] tablicaA = new int[]{10,20,30};
+//        int[] tablicaB = new int[5];
+//        tablicaB[3] = 55;
+//        tablicaB[4] = 66;
+//         System.arraycopy(tablicaA,0,tablicaB,0,tablicaA.length);
+//       // System.out.println(Arrays.toString(tablicaB));
+//       for (int i:tablicaB){
+//           System.out.println( i);
+//       }
+//        String[] pierwsza = new String[]{"na pozycji zero jest A","na pozycji jeden jest B","na pozycji dwa jest C"};
+//        String[] druga = new String[5];
+//        druga[3] = "dodany element na pozycji 3";
+//        druga[4] = "dodany element na pozycji 4";
+//        System.arraycopy(pierwsza,0,druga,0,pierwsza.length);
+//        for (String j:druga){
+//            System.out.print(j +" | ");
 //        }
-//
-//        public static void main(String[] args) {
-//            runTest();
-//        }
-//
-//        private static void runTest() {
-//            String[] source = {"A", "B", "C"};
-//            String[] newArray = ArrayAddElementTest.addElements(source,
-//                    "D", "E", "F");
-//            assertIndex(newArray, 0, "A");
-//            assertIndex(newArray, 1, "B");
-//            assertIndex(newArray, 2, "C");
-//            assertIndex(newArray, 3, "D");
-//            assertIndex(newArray, 4, "E");
-//            assertIndex(newArray, 5, "F");
-//            System.out.println("Implementation OK!");
-//        }
-//
-//        private static void assertIndex(String[] array, int index, String
-//                expected) {
-//            if (!array[index].equals(expected)) {
-//                throw new RuntimeException(MessageFormat.format("Bad "
-//                        + "implementation. Array[{0}] != {1}. Actual "
-//                        + "is {2}.", index, expected, array[index]));
-//            }
-//        }
+        int[] numbersA = new int[]{10,20,30,40};
+        int[] numbersB = new int[5];
+        numbersB[4]= 100;
+        System.arraycopy(numbersA,0,numbersB,0,numbersA.length);
+        for (int num:numbersB){
+            System.out.print(num);
+        }
+
     }
 
 

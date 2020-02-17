@@ -35,22 +35,27 @@ public class Exercise2 {
         for (String name: names) {
             if (longestNameLength < name.length()) {
                 longestNameLength = name.length();
+                System.out.println(name);
             }
         }
+        System.out.println("*********************ss******************");
         for (String name: names) {
             if (longestNameLength == name.length()) {
                 System.out.println(name);
             }
         }
 
-        System.out.println("########################");
+        System.out.println("###########kończące się na mir #############");
 
         for (String name : names) {
             if (name.endsWith("mir")) {
-                break;
+
+                System.out.println(name);
+                //break;
             }
-            System.out.println(name);
+        }
+
         }
     }
 
-}
+

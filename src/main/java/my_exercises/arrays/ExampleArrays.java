@@ -33,9 +33,9 @@ public class ExampleArrays {
         String[] a = new String[]{"ala", "ma", "kota"};
         System.out.println(Arrays.toString(a));
         System.out.println("************************kalendarz****************");
-        String[] days = {"Pon","Wt","śr","czw","pt"};
+        String[] days = {"Pon", "Wt", "śr", "czw", "pt"};
         System.out.println(Arrays.toString(days));
-        for (int i=0;i<20;i++){
+        for (int i = 0; i < 20; i++) {
             System.out.print("-");
         }
         System.out.println("*************************ćwiczenia***************************");
@@ -55,10 +55,10 @@ public class ExampleArrays {
 //                System.out.print(" " );
 //            else System.out.print(i+" ");
 //        }
-        for (int i=-20;i<=20;i++){
-            if (i%3==0)
-                System.out.println(i+" " );
-          //  System.out.println("\n");
+        for (int i = -20; i <= 20; i++) {
+            if (i % 3 == 0)
+                System.out.println(i + " ");
+            //  System.out.println("\n");
         }
 //        int liczba1;
 //        int liczna2;
@@ -67,16 +67,15 @@ public class ExampleArrays {
 //            for (int i=0; )
 //        }
 
-        int[] liczby= new int[10];
-        liczby[5]=10;
-        liczby[6]=14;
-        System.out.println(Arrays.toString(liczby));
-        System.out.println(liczby.length);
+//        int[] liczby= new int[10];
+//        liczby[5]=10;
+//        liczby[6]=14;
+//        System.out.println(Arrays.toString(liczby));
+//        System.out.println(liczby.length);
+//
+//    }
 
     }
-
-
-
 }
 
 
