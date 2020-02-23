@@ -16,6 +16,7 @@ public class Dates {
         Scanner scan = new Scanner(System.in);
         String input = scan.nextLine();
         LocalDate data = LocalDate.parse(input);
+
         System.out.println(data);
         System.out.println("Podaj dataę urodzenia:");
         String inputDateOfBearth = scan.nextLine();
@@ -23,12 +24,12 @@ public class Dates {
         System.out.println("Urodziłeś się w "+bearth_date +" roku");
         Period wiek = Period.between(data,bearth_date);
         int a = wiek.getYears();
-        System.out.println("Masz " +a+" lat");
+        System.out.println("Masz " +a+ " lat");
 
 
 
 
-       // System.out.println("za tydzień bęzie "+zatydzień+" będzie to "+dzień);
+
 
     }
 }

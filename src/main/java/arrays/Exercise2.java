@@ -3,7 +3,7 @@ package arrays;
 public class Exercise2 {
 
     public static void main(String[] args) {
-        String [] names = new String [] {
+        String[] names = new String[]{
                 "Ala",
                 "Ola",
                 "Andrzej",
@@ -26,36 +26,51 @@ public class Exercise2 {
         Zad 3: wypisz imiona słowiańskie (kończą się na "sław" lub "mir")
         Zad 3: znajdź najdłuższe imię
          */
-
-//        String newLine = System.lineSeparator();
-//        String multilineString = "Ala ma kota" + newLine + "A kot ma mleko" + newLine + "A myszka zbiła jajeczko";
-//        System.out.println(multilineString);
-
+        System.out.println("************************nowe linie *******************************");
+        String newLine = System.lineSeparator();
+        String multilineString = "Ala ma kota" + newLine + "A kot ma mleko" + newLine + "A myszka zbiła jajeczko";
+        System.out.println(multilineString);
+        System.out.println("**************************najdłusze imię********************************************");
         int longestNameLength = 0;
-        for (String name: names) {
+        for (String name : names) {
             if (longestNameLength < name.length()) {
                 longestNameLength = name.length();
                 System.out.println(name);
             }
         }
-        System.out.println("*********************ss******************");
-        for (String name: names) {
+        System.out.println("**************************najdłusze imię********************************************");
+        for (String name : names) {
             if (longestNameLength == name.length()) {
                 System.out.println(name);
             }
         }
-
-        System.out.println("###########kończące się na mir #############");
-
+        System.out.println("*********************ss******************");
         for (String name : names) {
-            if (name.endsWith("mir")) {
-
+            if (longestNameLength == name.length()) {
                 System.out.println(name);
-                //break;
+            }
+        }
+        System.out.println("*******************imona żeńskie***************************");
+        for (String name : names) {
+            if (name.endsWith("a")) {
+                System.out.println("Imiona żeńskie to :" + name);
+            }
+            if (name.length() < 4) {
+                System.out.println("Imona nie dłuższe niż 3 znaki to" + name);
             }
         }
 
+            System.out.println("###########kończące się na mir #############");
+
+            for (String name : names) {
+                if (name.endsWith("mir")) {
+                    break;
+                }
+                System.out.println(name);
+            }
+
         }
     }
+
 
 

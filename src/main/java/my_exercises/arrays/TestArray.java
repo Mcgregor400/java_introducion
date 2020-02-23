@@ -69,6 +69,8 @@ public class TestArray {
         System.out.println("Koniec petli.\n"+ "Nowa\n linia");
 
 
+
+
     }
 
 }

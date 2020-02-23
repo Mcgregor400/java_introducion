@@ -232,24 +232,24 @@ public class for_loops {
 //             System.out.print(i + " ");
 //        }
         System.out.println("***************************pętla for rozszerzona inaczej zwana for each*******************");
-//        int[] liczby = {1,2,3,4,5,6,7,8,9};
-//        int iloscLiczb=0;
-//        int pazyste=0;
-//        for (int i: liczby){
-//            iloscLiczb++;
-//            System.out.println(iloscLiczb+ " ");
-//            pazyste++;
-//            if (i%2 ==0){
-//                System.out.println("liczba "+pazyste+ " to jest liczba pażysta ");
-//            }
-//        }
-        for (int i=1; i<=5; i++) {
-            for (int j=1; j<=3; j++) {
-                 System.out.print("   "+"*");
-                  }
-             System.out.println("  ");
-
+        int[] liczby = {1,2,3,4,5,6,7,8,9};
+        int iloscLiczb=0;
+        int pazyste=0;
+        for (int i: liczby){
+            iloscLiczb++;
+            System.out.println(iloscLiczb+ " ");
+            pazyste++;
+            if (i%2 ==0){
+                System.out.println("liczba "+pazyste+ " to jest liczba pażysta ");
             }
+        }
+//        for (int i=1; i<=5; i++) {
+//            for (int j=1; j<=3; j++) {
+//                 System.out.print("   "+"*");
+//                  }
+//             System.out.println("  ");
+//
+//            }
 
 
 

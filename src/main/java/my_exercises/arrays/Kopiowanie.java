@@ -22,15 +22,46 @@ public class Kopiowanie {
 //        for (String j:druga){
 //            System.out.print(j +" | ");
 //        }
-        int[] numbersA = new int[]{10,20,30,40};
-        int[] numbersB = new int[5];
-        numbersB[4]= 100;
-        System.arraycopy(numbersA,0,numbersB,0,numbersA.length);
-        for (int num:numbersB){
-            System.out.print(num);
+//        int[] numbersA = new int[]{10,20,30,40};
+//        int[] numbersB = new int[4];
+//        numbersB[4]= 100;
+//        System.arraycopy(numbersA,0,numbersB,0,numbersA.length);
+//        for (int num:numbersB){
+//            System.out.print(num);
+//        }
+
+        int[][] tabDwuelem = new int[3][3];
+        tabDwuelem[0][0] = 5;
+        tabDwuelem[0][1] = 10;
+        tabDwuelem[0][2] = 15;
+        tabDwuelem[0][0] = 20;
+        tabDwuelem[1][0] = 25;
+        tabDwuelem[2][0] = 30;
+        System.out.println("*************************************for each********************************");
+        for (int[] i:tabDwuelem) {
+            //System.out.println(Arrays.toString(tabDwuelem));
+            System.out.println(tabDwuelem.length);
+        }
+        System.out.println("************************for***************************");
+        for (int j=0;j<tabDwuelem.length;j++){
+            for (int k=0;k<tabDwuelem[j].length;k++){
+                System.out.print(Arrays.toString(tabDwuelem[j]));
+                System.out.println(Arrays.toString(tabDwuelem[k]));
+            }
+        }
+        System.out.println("*************************while**************************");
+        int l=0;
+        while (l<tabDwuelem.length){
+            //l++;
+            System.out.println("to jest drugi lement tablicy"+tabDwuelem[l]);
+            l++;
+        }
+
+
+
         }
 
     }
 
 
-}
+
