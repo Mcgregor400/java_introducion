@@ -1,6 +1,7 @@
 package programowanie_podstawowe.sortowanie;
 
-import tablice.TabHelper;
+import programowanie_podstawowe.tablice.TabHelper;
+
 
 public class InsertSort {
 

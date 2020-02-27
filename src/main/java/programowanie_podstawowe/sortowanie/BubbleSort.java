@@ -1,6 +1,7 @@
 package programowanie_podstawowe.sortowanie;
 
-import tablice.TabHelper;
+import programowanie_podstawowe.tablice.TabHelper;
+
 
 public class BubbleSort {
 
@@ -10,6 +11,7 @@ public class BubbleSort {
             for (int j = 0; j < tab.length - i - 1; j++) {
                 if (tab[j] > tab[j + 1]) {
                     TabHelper.swap(tab, j, j + 1);
+
                 }
             }
         }

@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Fibobaci {
     public static void main(String[] args) {
-        System.out.println();
+        System.out.println(reku(9));
     }
     private static int reku (int number){
         if (number==0){
