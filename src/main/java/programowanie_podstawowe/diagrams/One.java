@@ -14,7 +14,7 @@ public class One {
             a = scanA.nextInt();
             suma +=suma;
         }
-        System.out.println(suma);
+//        System.out.println(suma);
 //        do {
 //            int a=scanA.nextInt();
 //            suma +=0;

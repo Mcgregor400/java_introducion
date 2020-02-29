@@ -8,9 +8,9 @@ public class Silnia {
     public static void main(String[] args) {
 
         int liczba = 4;
-        int liczba1 = 4;
+        int liczba1 = 2;
         int silnia = 1;
-       // int a=silniaRek
+
 
         System.out.println(silnia(liczba));
         System.out.println(dodajRek(liczba1));
@@ -29,7 +29,7 @@ public class Silnia {
         if (liczba1 == 0) {
             return 0;
         } else {
-            return liczba1 + dodajRek(liczba1 - 1);
+            return liczba1 + dodajRek(liczba1 -1);
 
         }
 

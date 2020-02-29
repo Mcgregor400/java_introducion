@@ -9,8 +9,8 @@ public class TabHelper {
         int[] tab = {1,2,3,4,5};
         System.out.println(Arrays.toString(tab));
 
-        int lIndex = 2;
-        int rIndex = 3;
+        int lIndex = 0;
+        int rIndex = 4;
         swap(tab, lIndex, rIndex);
         System.out.println(Arrays.toString(tab));
     }
