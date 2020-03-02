@@ -1,10 +1,10 @@
-package programowanie_podstawowe.listajednokierunkowa;
+package programowanie_podstawowe.listadwukierunkowa;
 
-public class ListaJednokierunkowaProgram {
+public class ListaDwukierunkowaProgram {
 
     public static void main(String[] args) {
 
-        ListaJednokierunkowa lista = new ListaJednokierunkowa();
+        ListaDwukierunkowa lista = new ListaDwukierunkowa();
 
         for (int i = 1; i <= 10; i++) {
             lista.add(new Element(i));

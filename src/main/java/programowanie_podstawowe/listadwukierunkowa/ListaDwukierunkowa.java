@@ -1,6 +1,6 @@
-package programowanie_podstawowe.listajednokierunkowa;
+package programowanie_podstawowe.listadwukierunkowa;
 
-public class ListaJednokierunkowa {
+public class ListaDwukierunkowa {
 
     protected Element head;
     protected Element tail;
@@ -20,6 +20,7 @@ public class ListaJednokierunkowa {
             tail = element;
         } else {
             tail.setNext(element);
+            element.setPrev(tail);
             tail = element;
         }
 
